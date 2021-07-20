@@ -1,3 +1,49 @@
+# React Task Tracker
+This small project uses React to build a task-tracking app.
+It doesn't have backend connectivity, so data-persistence isn't there, and refreshing the page sets data to default.
+
+## App Flow and Features : 
+
+### 1. Initial Screen
+
+![1-no-tasks-screen](https://user-images.githubusercontent.com/52257916/126270756-3a063d99-5e34-4727-a6dd-f31662a44688.png)
+
+
+
+### 2. Clicking add button gives us a form to add a new task, it's time and option of setting a reminder for the new task.
+
+![2-add-task](https://user-images.githubusercontent.com/52257916/126270757-d1bc71ce-d752-415a-a560-f2cc9c1f414f.png)
+
+
+
+### 3. Clicking Save task after filling details adds it at the bottom of existing list. If reminder was set to true, it'll have a green strip at left
+
+![3-task-added](https://user-images.githubusercontent.com/52257916/126270740-52c54d73-196f-4d42-926d-7b05fd994982.png)
+
+
+
+### 4. We can close add task button to see just the tasks in screen.
+
+![4-add-button-closed](https://user-images.githubusercontent.com/52257916/126270748-a10aa8d2-4d2a-4ab9-ba0a-e843fc2a41cf.png)
+
+
+
+### 5. Clicking on red-crossed button removes the task from list.
+
+![5-second-task-removed](https://user-images.githubusercontent.com/52257916/126270751-d41ccfc4-ff57-4a78-9702-1856eb845840.png)
+
+
+
+### 6. Double Clicking a task alters it's reminder settings.
+
+![6-reminder-settings-changed](https://user-images.githubusercontent.com/52257916/126270755-f58d62d7-0332-405e-8910-358c2ccf6150.png)
+
+
+
+________________________________________________________________________________________________________________________________________________
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
